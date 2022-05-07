@@ -446,3 +446,110 @@ footer .copyright {
 	font-weight: 300;
 }
 /* End Footer */
+
+/* Media Queries */
+
+@media (max-width: 1440px) {
+	html {
+		font-size: 56.25%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.training-path .card-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.card {
+		margin-bottom: 2rem;
+	}
+
+	.gym-tour .right h3 {
+		font-size: 4rem;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.gym-tour .right p {
+		width: 90%;
+	}
+}
+
+@media (max-width: 900px) {
+	html {
+		font-size: 37.5%;
+	}
+
+	.hero {
+		height: 50vh;
+	}
+
+	.hero .logo {
+		top: 0;
+	}
+
+	.hero .logo img {
+		width: 25rem;
+	}
+
+	.bg-video {
+		height: 50vh;
+	}
+
+	.bg-video-overlay {
+		height: 50vh;
+	}
+
+	.card {
+		width: 48%;
+	}
+
+	.card-title {
+		font-size: 2.5rem;
+	}
+
+	.card .card-img {
+		opacity: 1;
+	}
+
+	.card-body {
+		bottom: 0;
+		clip-path: unset;
+		height: 45%;
+		padding: 3rem;
+	}
+
+	.card-description {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.hero h1 {
+		font-size: 6rem;
+		text-align: center;
+	}
+
+	.card {
+		width: 90%;
+	}
+
+	.gym-tour {
+		flex-direction: column;
+		height: 100rem;
+	}
+
+	.gym-tour .left {
+		width: 100%;
+		height: 50%;
+		order: 1;
+	}
+
+	.gym-tour .right {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+/* End Media Queries */
