@@ -339,3 +339,70 @@ h1 {
 }
 
 /* End Training Path  */
+
+/* Gym Tour */
+
+.gym-tour {
+	width: 100%;
+	display: flex;
+	margin-bottom: 4rem;
+}
+
+.gym-tour .left {
+	width: 50%;
+}
+
+.gym-tour .left img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gym-tour .right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-light);
+	padding: 3rem;
+}
+
+.gym-tour .right h3 {
+	font-size: 6rem;
+	text-transform: uppercase;
+	margin-bottom: 5rem;
+}
+
+.gym-tour .right p {
+	font-size: 2rem;
+	color: var(--color-dark-gray);
+	width: 70%;
+	margin-bottom: 5rem;
+}
+
+.gym-tour .right a {
+	text-decoration: none;
+	font-size: 1.8rem;
+	background-color: var(--color-dark-gray);
+	color: var(--color-light);
+	padding: 2rem;
+	text-transform: uppercase;
+
+	transition: all 0.3s;
+}
+
+.gym-tour .right a i {
+	transition: all 0.3s;
+}
+
+.gym-tour .right a:hover {
+	background-color: var(--color-dark);
+	transform: scale(1.1);
+}
+
+.gym-tour .right a:hover i {
+	margin-left: 2rem;
+}
+
+/* End Gym Tour */
